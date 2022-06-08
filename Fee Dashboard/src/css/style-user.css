@@ -1,0 +1,1699 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #FAFAFA !important;
+    line-height: 1.3rem !important;
+}
+#errmsg{
+    margin-top:4px;
+    margin-bottom:4px;
+    background: #ff5757;
+    color:#fff;
+    padding:4px;
+    display:none;
+    }
+
+/* modal Change password */
+.inputChange{
+    text-align: -webkit-center;
+}
+.inputChange label{
+    font-size: 10px;
+    
+}
+.inputChange input{
+    display: block;
+    border-radius: 5px;
+}
+.btn-change{
+    width: 40%;
+    font-size: 10px !important;
+    background-color: #5055BE !important;
+}
+
+@media (min-width: 992px){
+    /* Login Page */
+.main{
+    display: flex;
+    background: linear-gradient(
+    243.18deg, #b6b9ff 0%, rgba(242, 248, 255, 0.1) 100%);
+    backdrop-filter: blur(35px);
+    height: 100vh;
+    overflow: hidden;
+    padding: 60px 80px;
+}
+.fieldsetlogin{
+    border-radius: 10px;
+    height: 56px;
+}
+.fieldsetlogin input{
+    background-color: transparent !important;
+    border: 0 !important;
+    padding: 0px 10px;
+    width: 100%;
+}
+.fieldsetlogin input:focus{
+    outline: none;
+}
+.fieldsetlogin input::placeholder{
+    color: #b9b8b8;
+}
+
+
+.btn-logout{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    text-align-last: justify;
+}
+.loginFailed{
+    position: absolute;
+    top: 221px;
+    font-size: 10px;
+    background-color: #FFD6D6;
+    color: #FF3434;
+    padding: 0px 5px;
+    border-radius: 6px;
+    z-index: 1;
+}
+.formLogin{
+    width: 50%;
+    height: 80vh;
+    background-color: #fff;
+    padding: 100px 85px;
+    border-radius: 30px 0px 0 30px;
+}
+.textUsername{
+    font-size: 10px;
+    background-color: white;
+    position: absolute;
+    top: 240px;
+    left: 99px;
+    padding: 5px;
+}
+
+.textPassword{
+    font-size: 10px;
+    background-color: white;
+    position: absolute;
+    top: 301px;
+    left: 99px;
+    padding: 5px;
+}
+.btnLogin{
+    width: 100%;
+    background-color: #5055BE !important;
+}
+.logintheme{
+    width: 50%;
+    height: 80vh;
+    background-color: #5055BE;
+    border-radius: 0 30px 30px 0;
+}
+.imageLogin{
+    background: url("../img/Rectangle34.svg") no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 201px;
+    position: absolute;
+    top: 133px;
+}
+.imageLoginTarget{
+    background: url("../img/Target.svg") no-repeat;
+    background-size: 100%;
+    width: 110px;
+    height: 121px;
+    position: absolute;
+    right: 80px;
+    top: 92px;
+}
+.imageLoginFile{
+    background: url("../img/Rectangle26.svg") no-repeat;
+    background-size: 100%;
+    position: absolute;
+    bottom: -9px;
+    height: 290px;
+    width: 211px;
+    right: 80px;
+    border-radius: 0px 0px 72px 0px;
+}
+.textLogin{
+    background: url("../img/text.svg") no-repeat;
+    background-size: 100%;
+    width: 330px;
+    position: absolute;
+    top: 254px;
+    height: 237px;
+    right: 170px;
+}
+.img-rounded{
+    border-radius: 30px;
+    height: 100%;
+}
+.textLoginSign{
+    color: #5055BE;
+    font-weight: 600;
+}
+
+/* Salary Page */
+    .grid{
+        display: flex;
+    }
+    .navbarDiv{
+        padding: 0 !important;
+    }
+    nav {
+        height: 100vh;
+        background-color: #F2F8FF;
+        width: 9rem;
+        position: block;
+        /* position: fixed; */
+    }
+    .nav-bottom{
+        margin-top: 317px;
+    }
+    .item {
+        height: auto;
+    }
+    
+    nav .logo {
+        padding: 20% 0 0 10%;
+    }
+    
+    nav ul{
+        margin-top: 30%;
+        /* width: 90%; */
+        list-style: none;
+        padding-left: 10%;
+    }
+    
+    nav ul li.active {
+        height: 25px;
+        background: linear-gradient(to right, rgb(242, 248, 255) 0%, rgb(242, 248, 255) 98%, rgb(242, 248, 255) 30%, rgb(80, 85, 190) 100%);
+    }
+    
+    nav ul li{
+        height: 25px;
+        margin-top: 15px;
+    }
+    
+    nav ul li a {
+        display: block;
+        height: 100%;
+    }
+    
+    
+    nav .logo img{
+        width: 50%;
+    }
+    
+    .sect-bottom {
+        position: absolute !important;
+        bottom: 11% !important;
+        width: 13% !important;
+        left: 2% !important;   
+    }
+    .sect-bottom-logout {
+        position: absolute !important;
+        bottom: 5% !important;
+        width: 13% !important;
+        left: 2% !important;
+    
+    }
+        /* Logo */
+        .logo-salary {
+            background: url("../img/Salary.svg") no-repeat;
+            width: 50%;
+            height: 100%;
+            background-size: 100%;
+        }
+        
+        .logo-cashbon{
+            background: url("../img/logo-cashbon.svg") no-repeat;
+            width: 65%;
+            height: 100%;
+            background-size: 100%;
+        }
+        .logo-user {
+            background: url("../img/logo-user.svg") no-repeat;
+            width: 50%;
+            height: 100%;
+            background-size: 100%;
+        }
+    
+        .change-pass {
+            background: url("../img/change-password.svg") no-repeat;
+            width: 80%;
+            height: 100%;
+            background-size: 100%;
+        }
+        .btn-logout{
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            text-align-last: justify;
+        }
+    
+        
+        .logo-logout {
+            background: url("../img/Logout.svg") no-repeat;
+            width: 41%;
+            height: 100%;
+            background-size: 100%;
+        }
+    
+
+    
+            /* Logo Active */
+            
+            .logo-salary-active {
+                background: url("../img/Salary-Active.svg") no-repeat;
+                width: 50%;
+                height: 100%;
+                background-size: 100%;
+            }
+
+            .logo-cashbon-active{
+                background: url("../img/CashbonPage.svg") no-repeat;
+                width: 65%;
+                height: 100%;
+                background-size: 100%;    
+            }
+                
+            .logo-user-active {
+                background: url("../img/profile_page.svg") no-repeat;
+                width: 50%;
+                height: 100%;
+                background-size: 100%;    
+            }
+        
+            .logo-setting-active {
+                background: url("../image/SETTING-ACTIVE-IC.svg") no-repeat;
+                width: 40%;
+                height: 100%;
+                margin-top: 25%;
+                background-size: 100%;
+            }
+    .navbarphone{
+        display: none;
+    }
+    .sidebarPhone{
+        display: none;
+    }
+    .main-page{
+        padding: 30px 30px 0 30px;
+        width: 100vw;
+    }
+    .headPage{
+        display: flex;
+        justify-content: space-between;
+    }
+    .left-header a:hover{
+        text-decoration: none;
+    }
+    .salarytitle{
+        color: #000;
+        font-weight: 600;
+    }
+    .overviewtitle{
+        color: #5055BE;
+        font-weight: 600;
+    }
+    .imgUser{
+        background-color: #FCDC89;
+        padding: 6px;
+        border-radius: 100%;
+    }
+    .imgUser img{
+        border-radius: 100%;
+        width: 60px;
+    }
+    .right-header{
+        display: flex;
+        width: 15rem;
+    }
+    .nameUser{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .nameUser .nameUser-title{
+        font-weight: 700;
+    }
+    .nameUser .nameRole-title{
+        font-size: 12px;
+    }
+    .head-content{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-content{
+        display: flex;
+        
+    }
+    .content-salary{
+        -webkit-flex-wrap: wrap !important;
+    }
+    .total_Salary{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .nominal_Salary{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .dateSalary{
+        margin-right: 10px;
+    }
+    .dateSalary label{
+        font-size: 14px;
+        font-weight: 600;
+        margin-right: 5px;
+    }
+    .dateSalary select{
+        background-color: #5055BE;
+        border-radius: 12px;
+        font-size: 10px;
+        padding: 4px 20px;
+        border: 0;
+        color: #FAFAFA;
+    }
+    .rigth-content{
+        margin-right: 20px;
+    }
+    .tableSalarySet{
+        width: 35rem;
+        padding: 20px 50px 0 0;
+    }
+    .table thead tr th img{
+        width: 90px;
+    }
+    .table thead tr th{
+        border-top: none;
+        border-bottom-color:  #5055BE;
+    }
+    .table tbody tr th{
+        font-size:15bpx;
+        padding: 5px;
+    }
+    .table tbody tr td{
+        font-size:16px;
+        padding: 5px;
+    }
+    .imgNote{
+        width: 60px !important;
+    }
+    /* Cashbon Page */
+    .user{
+        display: flex;
+        height: 60px;
+        width: 50%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .user-img{
+        /* background-color: #B6B9FF;
+        border-radius: 100px;
+        width: 70px;
+        height: 70px;
+        padding: 5px; */
+    }
+    .user-img img{
+        inline-size: -webkit-fill-available;
+        border-radius: 100%;
+        width: 80px;
+        border: 2px solid #B6B9FF;
+        /* margin-left: -22px;
+        margin-top: -16px; */
+    }
+    .tableHead{
+        box-shadow: 0 0 10px -5px;
+        border-radius: 6px;
+        font-size: 10px;
+    }
+    .toptable{
+        background: #fff;
+        box-shadow: 0 0 20px -10px;
+        border-radius: 8px;
+        padding: 5px 6px;
+        margin-bottom: 10px;
+        width: 12rem;
+    }
+    .bottomtable{
+        background: #B6B9FF;
+        box-shadow: 0 0 20px -10px;
+        border-radius: 8px;
+        padding: 5px 6px;
+        margin-bottom: 10px;
+        width: 12rem;
+
+    }
+    .topCashbon thead tr th{
+        font-size: 10px;
+    }
+    .topCashbon tbody tr td{
+        font-size: 10px;
+    }
+    .tabelCash{
+        margin-left: 5rem !important;
+        margin-top: 40px;
+
+    }
+    .name-user{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .nameUserCashbon{
+        font-size: 17px;
+        font-weight: 700;
+        margin: 0;
+        width: 6rem;
+        margin-bottom: 10px;
+    }
+    .roleuserCashbon{
+        font-size: 12px; 
+        border-radius: 15px; 
+        padding: 2px 8px; 
+        background-color: #B6B9FF; 
+        width: 100px;
+        text-align-last: center;
+    }
+    .applyCashbon_btn{
+        margin-bottom: 15px;
+    }
+    .applyCashbon_btn a{
+        color: #fff !important;
+        background-color: #5055BE;
+        padding: 5px 30px;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .applyCashbon_btn a:hover{
+        color: #fff;
+        background-color: #5055BE;
+        padding: 5px 30px;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 22px;
+        text-decoration: none;
+    }
+    .validasiMax{
+        background-color: #B6B9FF;
+        border-radius: 20px;
+        padding: 3px 11px;
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: 5px;
+    }
+        
+    .modal-body h5{
+        text-align: center;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 37px;
+    }    
+    .modal-body input{
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 5px !important;
+        width: 252px !important;
+        height: 30px !important;
+    }
+    .modal-body button{
+        background: #5055BE;
+        border-radius: 5px;
+        padding: 6px 16px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 19px;
+        color: #FFFFFF;
+        align-items: center;
+    }
+    .statusCashbon{
+        background-color: #FFD6D6;
+        color: #FF3434;
+        padding: 2px 10px;
+        border-radius: 25px;
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .statusCashbonActive{
+        background-color: #CFFEDA;
+        color: #5CC373;
+        padding: 2px 10px;
+        border-radius: 25px;
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .statusCashbonPending{
+        background-color: #e6ff58;
+        color: #797a12;
+        padding: 2px 10px;
+        border-radius: 25px;
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .statusCashbonReject{
+        background-color: #ff8888;
+        color: #a80b0b;
+        padding: 2px 10px;
+        border-radius: 25px;
+        font-size: 10px;
+        font-weight: 700;
+    
+    }
+    
+
+    /* profile page */
+    .content-details{
+        display: flex;
+        /* justify-content: space-between; */
+    }
+    
+    .content-personal{
+        width: 44%;
+        background-color: #fff;
+        height: 27rem;
+        border-radius: 15px;
+        padding: 10px;
+        margin-right: 50px;
+        box-shadow: 0 0 10px -6px;
+    }
+    .content-additional{
+        width: 50%;
+        background-color: #fff;
+        height: 27rem;
+        border-radius: 15px;
+        padding: 10px;
+        box-shadow: 0 0 10px -6px;
+    }
+    .table-personal tr td{
+        font-size: 10px;
+        margin: 0 !important;
+        padding: 0;
+        padding-left: 12px;
+    }
+    .nametd{
+        width: 45%;
+    }
+    
+}
+@media (min-width: 575.99px) and (max-width: 991.98px){
+        /* Login Page */
+.bodyLogin{
+    background: linear-gradient(243.18deg, rgba(143, 148, 230, 0.934) 0%, rgba(130, 177, 231, 0.486) 100%);
+    backdrop-filter: blur(35px);
+}
+.main{
+    text-align: -webkit-center;
+    /* background-color: #5055BE; */
+}
+.fieldsetlogin{
+    border-radius: 10px;
+    height: 56px;
+}
+.fieldsetlogin input{
+    background-color: transparent !important;
+    border: 0 !important;
+    padding: 0px 10px;
+    width: 100%;
+}
+.fieldsetlogin input:focus{
+    outline: none;
+}
+.fieldsetlogin input::placeholder{
+    color: #b9b8b8;
+}
+
+.loginFailed{
+    position: absolute;
+    top: 261px;
+    left: 308px;
+    font-size: 10px;
+    background-color: #FFD6D6;
+    color: #FF3434;
+    padding: 0px 5px;
+    border-radius: 6px;
+    z-index: 1;
+}
+.formLogin{
+    width: 50%;
+    margin-top: 139px;
+    /* height: 100vh; */
+    padding: 15px 27px;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 20px -9px;
+}
+.textUsername{
+    font-size: 10px;
+    background-color: white;
+    position: absolute;
+    top: 275px;
+    left: 310px;
+    padding: 5px;
+}
+
+.textPassword{
+    font-size: 10px;
+    background-color: white;
+    position: absolute;
+    top: 328px;
+    left: 310px;
+    padding: 5px;
+}
+.btnLogin{
+    width: 100%;
+    background-color: #5055BE !important;
+}
+.logintheme{
+    display: none;
+    width: 50%;
+    height: 100vh;
+    background-color: #5055BE;
+}
+.imageLogin{
+    background: url("../img/Rectangle34.svg") no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 201px;
+    position: absolute;
+    top: 40px;
+}
+.imageLoginTarget{
+    background: url("../img/Target.svg") no-repeat;
+    background-size: 100%;
+    width: 150px;
+    height: 221px;
+    position: absolute;
+    right: 0;
+    top: 18px;
+}
+.imageLoginFile{
+    background: url("../img/Rectangle26.svg") no-repeat;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 270px;
+    width: 270px;
+    right: 0;
+}
+.textLogin{
+    background: url("../img/text.svg") no-repeat;
+    background-size: 100%;
+    width: 420px;
+    position: absolute;
+    top: 13rem;
+    right: 10rem;
+    height: 237px;
+}
+.textLoginSign{
+    color: #5055BE;
+    font-weight: 600;
+}
+
+/* Salary Page */
+    .navbarDiv{
+        display: none;
+    }
+    .navbarphone{
+        padding: 10px 10px;
+        background-color: #fff;
+        box-shadow: 0 0 16px -3px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo img{
+        width: 70%;
+    }
+    .sidebarPhone{
+        position: absolute;
+        background-color: #F2F8FF;
+        width: 15rem;
+        left: -300px;
+        opacity: 0;
+        transition: all 0.5s;
+        top: 0;
+        height: 100vh;
+        padding: 30px;
+    }
+    .userTitle{
+        display: flex;
+    }
+    .img-profile{
+        background-color: #FCDC89;
+        padding: 7px;
+        border-radius: 100%;    
+    }
+    .img-profile img{
+        border-radius: 100%;
+        width: 55px;
+    }
+    .userName{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .nameLabel{
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    nav {
+        /* height: 100vh; */
+        background-color: #F2F8FF;
+        width: 9rem;
+        position: block;
+        /* position: fixed; */
+    }
+    .nav-bottom{
+        margin-top: 317px;
+    }
+    .item {
+        height: auto;
+    }
+    
+    nav .logo {
+        padding: 20% 0 0 10%;
+    }
+    
+    nav ul{
+        margin-top: 30%;
+        /* width: 90%; */
+        list-style: none;
+        padding-left: 10%;
+    }
+    
+    nav ul li.active {
+        height: 25px;
+    }
+    
+    nav ul li{
+        height: 25px;
+        margin-top: 15px;
+    }
+    
+    nav ul li a {
+        display: block;
+        height: 100%;
+    }
+    
+    
+    nav .logo img{
+        width: 50%;
+    }
+    
+    .sect-bottom {
+        position: absolute !important;
+        bottom: 11% !important;
+        width: 13% !important;
+        left: 2% !important;   
+    }
+    .sect-bottom-logout {
+        position: absolute !important;
+        bottom: 5% !important;
+        width: 13% !important;
+        left: 2% !important;
+    
+    }
+        /* Logo */
+        .logo-salary {
+            background: url("../img/Salary.svg") no-repeat;
+            width: 50%;
+            height: 100%;
+            background-size: 100%;
+        }
+        
+        .logo-cashbon{
+            background: url("../img/logo-cashbon.svg") no-repeat;
+            width: 65%;
+            height: 100%;
+            background-size: 100%;
+        }
+        .logo-user {
+            background: url("../img/logo-user.svg") no-repeat;
+            width: 50%;
+            height: 100%;
+            background-size: 100%;
+        }
+    
+        .change-pass {
+            background: url("../img/change-password.svg") no-repeat;
+            width: 80%;
+            height: 100%;
+            background-size: 100%;
+        }
+        .btn-logout{
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            text-align-last: justify;
+        }
+    
+        
+        .logo-logout {
+            background: url("../img/Logout.svg") no-repeat;
+            width: 41%;
+            height: 100%;
+            background-size: 100%;
+        }
+    
+
+    
+            /* Logo Active */
+            
+            .logo-salary-active {
+                background: url("../img/Salary-Active.svg") no-repeat;
+                width: 50%;
+                height: 100%;
+                background-size: 100%;
+            }
+            
+            .logo-cashbon-active{
+                background: url("../img/CashbonPage.svg") no-repeat;
+                width: 65%;
+                height: 100%;
+                background-size: 100%;    
+            }
+
+            .logo-user-active {
+                background: url("../img/profile_page.svg") no-repeat;
+                width: 50%;
+                height: 100%;
+                background-size: 100%;
+            }
+        
+            .logo-setting-active {
+                background: url("../image/SETTING-ACTIVE-IC.svg") no-repeat;
+                width: 40%;
+                height: 100%;
+                margin-top: 25%;
+                background-size: 100%;
+            }
+            .closeNavbar{
+                position: inherit;
+                top: 10px;
+                right: 10px;
+            }
+            .right-header{
+                display: none;
+            }
+            .main-page{
+                padding: 30px;
+                text-align: -webkit-center;
+            }
+            .salarytitle{
+                color: #000;
+                font-weight: 600;
+            }
+            .overviewtitle{
+                color: #5055BE;
+                font-weight: 600;
+            }
+            .total_Salary{
+                font-size: 20px;
+                font-weight: 700;
+            }
+            .nominal_Salary{
+                font-size: 20px;
+                font-weight: 700;
+            }
+            .left-header h3{
+                margin-bottom: 3pc;
+            }
+            .dateSalary{
+                margin-right: 10px;
+            }
+            .dateSalary label{
+                font-size: 14px;
+                font-weight: 600;
+                margin-right: 5px;
+            }
+            .dateSalary select{
+                background-color: #5055BE;
+                border-radius: 12px;
+                font-size: 10px;
+                padding: 4px 20px;
+                border: 0;
+                color: #FAFAFA;
+            }
+            .tableSalarySet{
+                width: 20rem;
+            }
+            .table thead tr th img{
+                width: 90px;
+            }
+            .table thead tr th{
+                border-top: none;
+                border-bottom-color:  #5055BE;
+            }
+            .table tbody tr th{
+                font-size:10px;
+                padding: 5px;
+            }
+            .table tbody tr td{
+                font-size:10px;
+                padding: 5px;
+            }
+            .imgNote{
+                width: 60px !important;
+            }
+            /* Cashbon Page */
+            .user-img{
+                background-color: #B6B9FF;
+                border-radius: 100px;
+                width: 70px;
+                height: 70px;
+                padding: 5px;
+            }
+            .user-img img{
+                inline-size: -webkit-fill-available;
+                border-radius: 100%;
+                width: 60px;
+                /* margin-left: -22px;
+                margin-top: -16px; */
+            }
+            .user{
+                display: flex;
+                height: 60px;
+                width: 50%;
+                margin-top: 40px;
+                margin-bottom: 40px;
+                margin-top: 25px;
+                margin-bottom: 20px;
+            }
+            .name-user{
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+            .nameUserCashbon{
+                font-size: 17px;
+                font-weight: 700;
+                margin: 0;
+                width: 6rem;
+                margin-bottom: 10px;
+            }
+            .roleuserCashbon{
+                font-size: 12px; 
+                border-radius: 15px; 
+                padding: 2px 8px; 
+                background-color: #B6B9FF; 
+                width: 100px;
+                text-align-last: center;
+            }
+            .applyCashbon_btn{
+                margin-bottom: 15px;
+            }
+            .applyCashbon_btn a{
+                color: #fff !important;
+                background-color: #5055BE !important;
+                padding: 5px 30px;
+                border-radius: 5px;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 22px;
+            }
+            .applyCashbon_btn a:hover{
+                color: #fff;
+                background-color: #5055BE;
+                padding: 5px 30px;
+                border-radius: 5px;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 22px;
+                text-decoration: none;
+            }
+            .validasiMax{
+                background-color: #B6B9FF;
+                border-radius: 20px;
+                padding: 3px 11px;
+                font-size: 12px;
+                line-height: 14px;
+                margin-top: 5px;
+            }
+            .modal-body h5{
+                text-align: center;
+                font-weight: 500;
+                font-size: 28px;
+                line-height: 34px;
+                margin-bottom: 37px;
+            }    
+            .modal-body input{
+                border: 1px solid #000000;
+                box-sizing: border-box;
+                border-radius: 5px !important;
+                width: 252px !important;
+                height: 30px !important;
+            }
+            .modal-body button{
+                background: #5055BE;
+                border-radius: 5px;
+                padding: 6px 16px;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 19px;
+                color: #FFFFFF;
+                align-items: center;
+            }
+            .tableHead{
+                box-shadow: 0 0 10px -5px;
+                border-radius: 6px;
+                font-size: 10px;
+            }
+            .toptable{
+                background: #fff;
+                box-shadow: 0 0 20px -10px;
+                border-radius: 8px;
+                padding: 5px 6px;
+                margin-bottom: 10px;
+                width: 11rem;
+            }
+            .bottomtable{
+                background: #B6B9FF;
+                box-shadow: 0 0 20px -10px;
+                border-radius: 8px;
+                padding: 5px 6px;
+                margin-bottom: 10px;
+                width: 11rem;
+        
+            }
+            .topCashbon thead tr th{
+                font-size: 10px;
+            }
+            .topCashbon tbody tr td{
+                font-size: 10px;
+            }
+            .statusCashbon{
+                background-color: #FFD6D6;
+                color: #FF3434;
+                padding: 2px 10px;
+                border-radius: 25px;
+                font-size: 10px;
+                font-weight: 700;
+            }
+            .statusCashbonActive{
+                background-color: #CFFEDA;
+                color: #5CC373;
+                padding: 2px 10px;
+                border-radius: 25px;
+                font-size: 10px;
+                font-weight: 700;
+            }
+                /* profile page */
+        /* .content-details{
+            display: flex;
+            justify-content: space-between;
+        } */
+        
+        .content-personal{
+            /* width: 40%; */
+            background-color: #fff;
+            height: 25rem;
+            border-radius: 15px;
+            padding: 10px;
+            box-shadow: 0 0 10px -6px;
+            margin-bottom: 10px;
+        }
+        .content-additional{
+            /* width: 45%; */
+            background-color: #fff;
+            height: 27rem;
+            border-radius: 15px;
+            padding: 10px;
+            box-shadow: 0 0 10px -6px;
+        }
+        .table-personal tr td{
+            font-size: 15px !important;
+            margin: 0 !important;
+            padding: 0;
+            padding-left: 12px;
+        }
+        .nametd{
+            width: 45%;
+        }
+        
+}
+@media (max-width: 575.98px) {
+/* Login Page */
+.bodyLogin{
+    background: linear-gradient(243.18deg, rgba(143, 148, 230, 0.934) 0%, rgba(130, 177, 231, 0.486) 100%);
+    backdrop-filter: blur(35px);
+}
+            
+.main{
+    text-align: -webkit-center;
+    /* background-color: #5055BE; */
+}
+.fieldsetlogin{
+    border-radius: 10px;
+    height: 56px;
+}
+.fieldsetlogin input{
+    background-color: transparent !important;
+    border: 0 !important;
+    padding: 0px 10px;
+    width: 100%;
+}
+.fieldsetlogin input:focus{
+    outline: none;
+}
+.fieldsetlogin input::placeholder{
+    color: #b9b8b8;
+}
+.btn-logout{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    text-align-last: justify;
+}
+.loginFailed{
+    position: absolute;
+    top: 253px;
+    left: 113px;
+    font-size: 10px;
+    background-color: #FFD6D6;
+    color: #FF3434;
+    padding: 0px 5px;
+    border-radius: 6px;
+    z-index: 1;
+}
+.formLogin{
+    width: 80%;
+    margin-top: 139px;
+    /* height: 100vh; */
+    padding: 1px 35px;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 20px -9px;
+}
+.textUsername{
+    font-size: 10px;
+    background-color: white;
+    position: absolute;
+    top: 265px;
+    left: 122px;
+    padding: 5px;
+}
+
+.textPassword{
+    font-size: 10px;
+    background-color: white;
+    position: absolute;
+    top: 323px;
+    left: 122px;
+    padding: 5px;
+}
+.btnLogin{
+    width: 100%;
+    background-color: #5055BE !important;
+}
+.logintheme{
+    display: none;
+    width: 50%;
+    height: 100vh;
+    background-color: #5055BE;
+}
+.imageLogin{
+    background: url("../img/Rectangle34.svg") no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 201px;
+    position: absolute;
+    top: 40px;
+}
+.imageLoginTarget{
+    background: url("../img/Target.svg") no-repeat;
+    background-size: 100%;
+    width: 150px;
+    height: 221px;
+    position: absolute;
+    right: 0;
+    top: 18px;
+}
+.imageLoginFile{
+    background: url("../img/Rectangle26.svg") no-repeat;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 270px;
+    width: 270px;
+    right: 0;
+}
+.textLogin{
+    background: url("../img/text.svg") no-repeat;
+    background-size: 100%;
+    width: 420px;
+    position: absolute;
+    top: 13rem;
+    right: 10rem;
+    height: 237px;
+}
+.textLoginSign{
+    color: #5055BE;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: 12px;
+}
+.formLogin h1{
+    font-size: 18px !important;
+}
+.formLogin .loginDesc{
+    font-size: 10px !important;
+    color: #444444;
+}
+.formLogin .pForgot{
+    font-size: 10px;
+}
+/* Salary Page */
+    .navbarDiv{
+        display: none;
+    }
+    .navbarphone{
+        padding: 10px 10px;
+        background-color: #fff;
+        box-shadow: 0 0 16px -3px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo img{
+        width: 70%;
+    }
+
+    .sidebarPhone{
+        position: absolute;
+        background-color: #F2F8FF;
+        width: 15rem;
+        left: -300px;
+        opacity: 0;
+        transition: all 0.5s;
+        top: 0;
+        height: 100vh;
+        padding: 30px;
+    }
+    .userTitle{
+        display: flex;
+    }
+    .img-profile{
+        background-color: #FCDC89;
+        padding: 7px;
+        border-radius: 100%;    
+    }
+    .img-profile img{
+        border-radius: 100%;
+    }
+    .userName{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .nameLabel{
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    nav {
+        /* height: 100vh; */
+        background-color: #F2F8FF;
+        width: 9rem;
+        position: block;
+        /* position: fixed; */
+    }
+    .nav-bottom{
+        margin-top: 317px;
+    }
+    .item {
+        height: auto;
+    }
+    
+    nav .logo {
+        padding: 20% 0 0 10%;
+    }
+    
+    nav ul{
+        margin-top: 30%;
+        /* width: 90%; */
+        list-style: none;
+        padding-left: 10%;
+    }
+    
+    nav ul li.active {
+        height: 25px;
+    }
+    
+    nav ul li{
+        height: 25px;
+        margin-top: 15px;
+    }
+    
+    nav ul li a {
+        display: block;
+        height: 100%;
+    }
+    
+    
+    nav .logo img{
+        width: 50%;
+    }
+    
+    .sect-bottom {
+        position: absolute !important;
+        bottom: 11% !important;
+        width: 13% !important;
+        left: 2% !important;   
+    }
+    .sect-bottom-logout {
+        position: absolute !important;
+        bottom: 5% !important;
+        width: 13% !important;
+        left: 2% !important;
+    
+    }
+        /* Logo */
+        .logo-salary {
+            background: url("../img/Salary.svg") no-repeat;
+            width: 50%;
+            height: 100%;
+            background-size: 100%;
+        }
+        
+        .logo-cashbon{
+            background: url("../img/logo-cashbon.svg") no-repeat;
+            width: 65%;
+            height: 100%;
+            background-size: 100%;
+        }
+        .logo-user {
+            background: url("../img/logo-user.svg") no-repeat;
+            width: 50%;
+            height: 100%;
+            background-size: 100%;
+        }
+    
+        .change-pass {
+            background: url("../img/change-password.svg") no-repeat;
+            width: 80%;
+            height: 100%;
+            background-size: 100%;
+        }
+        .btn-logout{
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            text-align-last: justify;
+        }
+    
+        
+        .logo-logout {
+            background: url("../img/Logout.svg") no-repeat;
+            width: 41%;
+            height: 100%;
+            background-size: 100%;
+        }
+    
+
+    
+            /* Logo Active */
+            
+            .logo-salary-active {
+                background: url("../img/Salary-Active.svg") no-repeat;
+                width: 50%;
+                height: 100%;
+                background-size: 100%;
+            }
+            .logo-cashbon-active{
+                background: url("../img/CashbonPage.svg") no-repeat;
+                width: 65%;
+                height: 100%;
+                background-size: 100%;    
+            }
+                
+            .logo-user-active {
+                background: url("../img/profile_page.svg") no-repeat;
+                width: 50%;
+                height: 100%;
+                background-size: 100%;
+            }
+        
+            .logo-setting-active {
+                background: url("../image/SETTING-ACTIVE-IC.svg") no-repeat;
+                width: 40%;
+                height: 100%;
+                margin-top: 25%;
+                background-size: 100%;
+            }
+            .closeNavbar{
+                position: inherit;
+                top: 10px;
+                right: 10px;
+            }
+            .right-header{
+                display: none;
+            }
+            .main-page{
+                padding: 30px;
+            }
+            .salarytitle{
+                color: #000;
+                font-weight: 600;
+            }
+            .overviewtitle{
+                color: #5055BE;
+                font-weight: 600;
+            }
+            .total_Salary{
+                font-size: 20px;
+                font-weight: 700;
+            }
+            .nominal_Salary{
+                font-size: 20px;
+                font-weight: 700;
+            }
+            .left-header h3{
+                margin-bottom: 3pc;
+            }
+            .dateSalary{
+                margin-right: 10px;
+            }
+            .dateSalary label{
+                font-size: 14px;
+                font-weight: 600;
+                margin-right: 5px;
+            }
+            .dateSalary select{
+                background-color: #5055BE;
+                border-radius: 12px;
+                font-size: 10px;
+                padding: 4px 20px;
+                border: 0;
+                color: #FAFAFA;
+            }
+            .tableSalarySet{
+                width: 20rem;
+            }
+            .table thead tr th img{
+                width: 90px;
+            }
+            .table thead tr th{
+                border-top: none;
+                border-bottom-color:  #5055BE;
+            }
+            .table tbody tr th{
+                font-size:10px;
+                padding: 5px;
+            }
+            .table tbody tr td{
+                font-size:10px;
+                padding: 5px;
+            }
+            .imgNote{
+                width: 60px !important;
+            }
+            .img-profile img{
+                border-radius: 100%;
+                width: 55px;
+            }
+                        /* Cashbon Page */
+                        .user-img{
+                            background-color: #B6B9FF;
+                            border-radius: 100px;
+                            width: 70px;
+                            height: 70px;
+                            padding: 5px;
+                        }
+                        .user-img img{
+                            inline-size: -webkit-fill-available;
+                            border-radius: 100%;
+                            width: 60px;
+                            /* margin-left: -22px;
+                            margin-top: -16px; */
+                        }
+                        .user{
+                            display: flex;
+                            height: 60px;
+                            width: 50%;
+                            margin-top: 40px;
+                            margin-bottom: 40px;
+                            margin-top: 25px;
+                            margin-bottom: 20px;
+                        }
+                        .name-user{
+                            margin-top: 10px;
+                            margin-left: 10px;
+                        }
+                        .nameUserCashbon{
+                            font-size: 17px;
+                            font-weight: 700;
+                            margin: 0;
+                            width: 6rem;
+                            margin-bottom: 10px;
+                        }
+                        .roleuserCashbon{
+                            font-size: 12px; 
+                            border-radius: 15px; 
+                            padding: 2px 8px; 
+                            background-color: #B6B9FF; 
+                            width: 100px;
+                            text-align-last: center;
+                        }
+                        .applyCashbon_btn{
+                            margin-bottom: 15px;
+                        }
+                        .applyCashbon_btn a{
+                            color: #fff !important;
+                            background-color: #5055BE !important;
+                            padding: 5px 30px;
+                            border-radius: 5px;
+                            font-weight: 500;
+                            font-size: 12px;
+                            line-height: 22px;
+                        }
+                        .applyCashbon_btn a:hover{
+                            color: #fff;
+                            background-color: #5055BE;
+                            padding: 5px 30px;
+                            border-radius: 5px;
+                            font-weight: 500;
+                            font-size: 12px;
+                            line-height: 22px;
+                            text-decoration: none;
+                        }
+                        .validasiMax{
+                            background-color: #B6B9FF;
+                            border-radius: 20px;
+                            padding: 3px 11px;
+                            font-size: 12px;
+                            line-height: 14px;
+                            margin-top: 5px;
+                        }
+                        .modal-body h5{
+                            text-align: center;
+                            font-weight: 500;
+                            font-size: 28px;
+                            line-height: 34px;
+                            margin-bottom: 37px;
+                        }    
+                        .modal-body input{
+                            
+                            border: 1px solid #000000;
+                            box-sizing: border-box;
+                            border-radius: 5px !important;
+                            width: 235px !important;
+                            height: 30px !important;
+                            margin-right: 5px;
+
+                        }
+                        .modal-body button{
+                            background: #5055BE;
+                            border-radius: 5px;
+                            padding: 6px 16px;
+                            font-weight: 500;
+                            font-size: 12px;
+                            line-height: 19px;
+                            color: #FFFFFF;
+                            align-items: center;
+                        }
+                        .tableHead{
+                            box-shadow: 0 0 10px -5px;
+                            border-radius: 6px;
+                            font-size: 10px;
+                        }
+                        .toptable{
+                            background: #fff;
+                            box-shadow: 0 0 20px -10px;
+                            border-radius: 8px;
+                            padding: 5px 6px;
+                            margin-bottom: 10px;
+                            width: 18rem;
+                        }
+                        .bottomtable{
+                            background: #B6B9FF;
+                            box-shadow: 0 0 20px -10px;
+                            border-radius: 8px;
+                            padding: 5px 6px;
+                            margin-bottom: 10px;
+                            width: 18rem;
+                    
+                        }
+                        .topCashbon thead tr th{
+                            font-size: 10px;
+                        }
+                        .topCashbon tbody tr td{
+                            font-size: 10px;
+                        }
+                        .statusCashbon{
+                            background-color: #FFD6D6;
+                            color: #FF3434;
+                            padding: 2px 10px;
+                            border-radius: 25px;
+                            font-size: 10px;
+                            font-weight: 700;
+                        }
+                        .statusCashbonActive{
+                            background-color: #CFFEDA;
+                            color: #5CC373;
+                            padding: 2px 10px;
+                            border-radius: 25px;
+                            font-size: 10px;
+                            font-weight: 700;
+                        }
+                                        /* profile page */
+        /* .content-details{
+            display: flex;
+            justify-content: space-between;
+        } */
+        
+        .content-personal{
+            /* width: 40%; */
+            background-color: #fff;
+            /* height: 25rem; */
+            border-radius: 15px;
+            padding: 10px;
+            box-shadow: 0 0 10px -6px;
+            margin-bottom: 10px;
+        }
+        .content-additional{
+            /* width: 45%; */
+            background-color: #fff;
+            /* height: 27rem; */
+            border-radius: 15px;
+            padding: 10px;
+            box-shadow: 0 0 10px -6px;
+        }
+        .table-personal tr td{
+            font-size: 15px !important;
+            margin: 0 !important;
+            padding: 0;
+            padding-left: 12px;
+        }
+        .nametd{
+            width: 45%;
+        }        
+}
